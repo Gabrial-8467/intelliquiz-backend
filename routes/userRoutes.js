@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const authenticate = require('../middleware/authMiddleware');
 const User = require('../models/User');
-const QuizResult = require('../models/Result'); // Fixed casing to match actual file
+const QuizResult = require('../models/result'); // Fixed casing to match actual file
 
 // Secure route using JWT middleware
 router.get('/profile', authenticate, async (req, res) => {
