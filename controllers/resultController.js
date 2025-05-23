@@ -1,4 +1,4 @@
-const Result = require("../models/Result");
+const Result = require("../models/result");
 const Quiz = require("../models/Quiz");
 
 // Submit a quiz result
