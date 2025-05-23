@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Result = require('../models/Result');
+const Result = require('../models/result');
 const authenticate = require('../middleware/authMiddleware'); // JWT auth middleware
 
 // Get all results for a user
